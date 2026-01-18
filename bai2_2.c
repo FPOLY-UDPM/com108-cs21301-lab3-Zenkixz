@@ -20,7 +20,7 @@
 // o X2 = (-b – căn(delta))/(2*a)
 
 #include <stdio.h>
-
+#include <math.h>
 int main(){
     
     // Khai báo biến
@@ -48,7 +48,7 @@ int main(){
             float x = -b / (2 * a);
             printf("Phuong trinh co nghiem kep x = %.2f\n", x);
         } else {
-            float x1 = (-b + sqrt(delta)) / (2 * a);
+            float x1 = (-b + sqrt (delta)) / (2 * a);
             float x2 = (-b - sqrt(delta)) / (2 * a);
             printf("Phuong trinh co 2 nghiem phan biet:\n");
             printf("x1 = %.2f\n", x1);
