@@ -6,7 +6,7 @@
 
 //  BÀI 2: XÂY DỰNG CHƯƠNG TRÌNH GIẢI PHƯƠNG TRÌNH  
 // 2.2 BẬC 2 
-// Phương trình có dạng: ax2 + bx + c = 0 
+// Phương trình có dạng: ax^2 + bx + c = 0 
 // Input: Nhập vào từ bàn phím: a, b, c 
 // Output: Nghiệm của phương trình 
 // Biết rằng: 
