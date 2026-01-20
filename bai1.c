@@ -1,14 +1,14 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [NGUYỄN HUỲNH ANH QUÂN]
+ * MSSV:      [PS48285]
+ * Lớp:       [CS21301]
  *****************************************************************************/
 
 // BÀI 1: XÂY DỰNG CHƯƠNG TRÌNH TÍNH HỌC LỰC  
 // Input: Nhập vào điểm của sinh viên (0-10) 
 // Output: Hiển thị ra màn hình học lực của sinh viên 
 // Biết rằng: 
-// Học lực xuất sắc: Điểm >= 9 
+// Học lực xuất sắc: điểm >= 9 
 // Học lực giỏi: 9 > điểm >= 8 
 // Học lực khá: 8 > điểm >= 6.5 
 // Học lực trung bình: 6.5 > điểm >= 5 
@@ -20,12 +20,26 @@
 int main(){
 
     // Khai báo biến
-
+float diem;
 
     // Nhập dữ liệu
-
+    printf("Nhap diem sinh vien: ");
+    scanf("%f", &diem);
 
     // Xử lý, tính toán VÀ Hiển thị kết quả
+    if (diem >= 9) {
+        printf("Hoc luc xuat sac\n");
+    } else if (diem >= 8) {
+        printf("Hoc luc gioi\n");
+    } else if (diem >= 6.5) {
+        printf("Hoc luc kha\n");
+    } else if (diem >= 5) {
+        printf("Hoc luc trung binh\n");
+    } else if (diem >= 3.5) {
+        printf("Hoc luc yeu\n");
+    } else {
+        printf("Hoc luc kem\n");
+    }
 
     return 0;
 }
